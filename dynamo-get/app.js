@@ -7,7 +7,7 @@ const docClient = new AWS.DynamoDB.DocumentClient();
 exports.lambdaHandler = async (event, context) => {
   let response;
   let params = {
-    TableName: "MorimotoTest",
+    TableName: "ExampleTest",
     Key: {
       UserId: 1,
     },
