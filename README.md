@@ -14,7 +14,7 @@ DynamoDB で以下のようなテーブルを作成して、IAM を作成して�
 
 ```
 ExampleTest
-* UserId
+* UserId(プライマリキー)
 * Comment
 * EntryDate
 * Point
